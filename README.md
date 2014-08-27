@@ -1,0 +1,1 @@
+> This article will make the assumption that you have never used a task runner or command-line interface before and will walk through every step required to get up and running with gulp.
