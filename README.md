@@ -17,3 +17,20 @@ As a quick example, open up your command line and we will throw a couple command
 'node -v'
 
 > node -v
+
+## Questions and Solutions
+What the difference task return and task not return 
+
+### example of task without return 
+
+> gulp.task("XXXX", function() {
+>    gulp.src("....
+
+### example of task with return
+
+> gulp.task("XXXX", function() {
+>    return gulp.src("....
+
+### Answer
+You return to indicate that the task is async. gulp.src() returns a stream, so it's async.
+Without it the task system wouldn't know when it finished. read (Async task support)[https://github.com/gulpjs/gulp/blob/master/docs/API.md#async-task-support]
