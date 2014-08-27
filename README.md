@@ -1,5 +1,7 @@
 > Reference from:  Travis, M. (December, 17th 2013). Getting Started With Gulp. Retrieved from [http://travismaynard.com/writing/getting-started-with-gulp](http://travismaynard.com/writing/getting-started-with-gulp)
+
 # Getting Started With Gulp
+
 > This article will make the assumption that you have never used a task runner or command-line interface before and will walk through every step required to get up and running with gulp.
 
 ## Step One - Install Node
@@ -11,4 +13,7 @@ Now, you may not be very familiar with your command-line interface (Terminal for
 > If you are familiar with your command-line interface, then feel free to skip to step four.
 
 As a quick example, open up your command line and we will throw a couple commands at it to ensure that Node is properly installed.
+
 'node -v'
+
+> node -v
